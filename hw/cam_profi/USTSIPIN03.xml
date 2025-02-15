@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/USTSIPIN03.kicad_sch</source>
-    <date>2025-02-15T23:12:10+0000</date>
+    <date>2025-02-15T23:49:17+0000</date>
     <tool>Eeschema 8.0.8+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1848,6 +1848,42 @@
       <sheetpath names="/interface/" tstamps="/0c2aa1a0-2cd5-4b79-93d8-46f8a648ea33/"/>
       <tstamps>f4bd9348-b170-42a5-ab09-f2e4e87f6147</tstamps>
     </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_3_Bridged12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</footprint>
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">3-pole Solder Jumper, pins 1+2 closed/bridged</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value="interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <property name="ki_fp_filters" value="SolderJumper*Bridged12*"/>
+      <sheetpath names="/interface/" tstamps="/0c2aa1a0-2cd5-4b79-93d8-46f8a648ea33/"/>
+      <tstamps>0243b450-89f4-476d-b118-ecbf7669f885</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>SolderJumper_3_Bridged12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</footprint>
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">3-pole Solder Jumper, pins 1+2 closed/bridged</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value="interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <property name="ki_fp_filters" value="SolderJumper*Bridged12*"/>
+      <sheetpath names="/interface/" tstamps="/0c2aa1a0-2cd5-4b79-93d8-46f8a648ea33/"/>
+      <tstamps>e2c2280b-bc61-4144-b416-94af5c480115</tstamps>
+    </comp>
     <comp ref="L1">
       <value>NL03KT330</value>
       <footprint>Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
@@ -2242,6 +2278,25 @@
         <pin num="1" name="Shield" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Bridged12">
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Bridged12</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">3-pole Solder Jumper, pins 1+2 closed/bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Logic_LevelTranslator" part="74LVC2T45DC">
       <description>Dual supply translating transceiver, 3-state, 2-bit, VSSOP-8</description>
       <docs>https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH2T45.pdf</docs>
@@ -2491,6 +2546,9 @@
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
     <library logical="Logic_LevelTranslator">
       <uri>/usr/share/kicad/symbols//Logic_LevelTranslator.kicad_sym</uri>
     </library>
@@ -2728,13 +2786,13 @@
       <node ref="J1" pin="29" pintype="input"/>
       <node ref="J1" pin="30" pintype="input"/>
       <node ref="JP1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="JP2" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="M1" pin="1" pintype="input"/>
       <node ref="M2" pin="1" pintype="input"/>
       <node ref="M3" pin="1" pintype="input"/>
       <node ref="M4" pin="1" pintype="input"/>
       <node ref="M5" pin="1" pinfunction="Shield" pintype="passive"/>
-      <node ref="U11" pin="2" pinfunction="A1" pintype="input"/>
-      <node ref="U11" pin="3" pinfunction="A2" pintype="input"/>
       <node ref="U11" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="U11" pin="7" pinfunction="WP" pintype="input"/>
       <node ref="U12" pin="4" pinfunction="GND" pintype="power_in"/>
@@ -2823,40 +2881,48 @@
       <node ref="J1" pin="7" pintype="input"/>
       <node ref="J1" pin="8" pintype="input"/>
     </net>
-    <net code="42" name="Net-(Q1-D)">
+    <net code="42" name="Net-(JP2-C)">
+      <node ref="JP2" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U11" pin="2" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="43" name="Net-(JP3-C)">
+      <node ref="JP3" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U11" pin="3" pinfunction="A2" pintype="input"/>
+    </net>
+    <net code="44" name="Net-(Q1-D)">
       <node ref="C20" pin="1" pintype="passive"/>
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
     </net>
-    <net code="43" name="Net-(Q1-S)">
+    <net code="45" name="Net-(Q1-S)">
       <node ref="C22" pin="1" pintype="passive"/>
       <node ref="Q1" pin="1" pinfunction="S" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
     </net>
-    <net code="44" name="Net-(U2-+)">
+    <net code="46" name="Net-(U2-+)">
       <node ref="C16" pin="1" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="45" name="Net-(U2--)">
+    <net code="47" name="Net-(U2--)">
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="1" pintype="output"/>
       <node ref="U2" pin="4" pinfunction="-" pintype="input"/>
       <node ref="U6" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="46" name="Net-(U4--)">
+    <net code="48" name="Net-(U4--)">
       <node ref="C15" pin="2" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U4" pin="4" pinfunction="-" pintype="input"/>
     </net>
-    <net code="47" name="Net-(U5-C)">
+    <net code="49" name="Net-(U5-C)">
       <node ref="U5" pin="1" pinfunction="C" pintype="input"/>
       <node ref="U6" pin="1" pintype="output"/>
     </net>
-    <net code="48" name="Net-(U6--)">
+    <net code="50" name="Net-(U6--)">
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
@@ -2864,40 +2930,42 @@
       <node ref="U4" pin="1" pintype="output"/>
       <node ref="U6" pin="4" pinfunction="-" pintype="input"/>
     </net>
-    <net code="49" name="Net-(U8-V+)">
+    <net code="51" name="Net-(U8-V+)">
       <node ref="C33" pin="1" pintype="passive"/>
       <node ref="C34" pin="1" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
       <node ref="U8" pin="5" pinfunction="V+" pintype="power_in"/>
     </net>
-    <net code="50" name="Net-(U9-+)">
+    <net code="52" name="Net-(U9-+)">
       <node ref="C30" pin="1" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="U9" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="51" name="Net-(U9--)">
+    <net code="53" name="Net-(U9--)">
       <node ref="C35" pin="2" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="R22" pin="1" pintype="passive"/>
       <node ref="U9" pin="4" pinfunction="-" pintype="input"/>
     </net>
-    <net code="52" name="Net-(U9-V+)">
+    <net code="54" name="Net-(U9-V+)">
       <node ref="C23" pin="1" pintype="passive"/>
       <node ref="C24" pin="1" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="U9" pin="5" pinfunction="V+" pintype="power_in"/>
     </net>
-    <net code="53" name="Net-(U10-Vin)">
+    <net code="55" name="Net-(U10-Vin)">
       <node ref="C36" pin="1" pintype="passive"/>
       <node ref="R21" pin="1" pintype="passive"/>
       <node ref="U10" pin="1" pinfunction="Vin" pintype="power_in"/>
     </net>
-    <net code="54" name="VDD">
+    <net code="56" name="VDD">
       <node ref="C19" pin="1" pintype="passive"/>
       <node ref="C40" pin="1" pintype="passive"/>
       <node ref="C41" pin="1" pintype="passive"/>
       <node ref="J1" pin="25" pintype="input"/>
       <node ref="J1" pin="26" pintype="input"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP3" pin="3" pinfunction="B" pintype="passive"/>
       <node ref="R29" pin="1" pintype="passive"/>
       <node ref="R30" pin="1" pintype="passive"/>
       <node ref="U11" pin="1" pinfunction="A0" pintype="input"/>
@@ -2905,19 +2973,19 @@
       <node ref="U7" pin="2" pinfunction="ADDR" pintype="input"/>
       <node ref="U7" pin="5" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="55" name="unconnected-(J1-Pad10)">
+    <net code="57" name="unconnected-(J1-Pad10)">
       <node ref="J1" pin="10" pintype="input+no_connect"/>
     </net>
-    <net code="56" name="unconnected-(U5-~{Q}-Pad3)">
+    <net code="58" name="unconnected-(U5-~{Q}-Pad3)">
       <node ref="U5" pin="3" pinfunction="~{Q}" pintype="output+no_connect"/>
     </net>
-    <net code="57" name="unconnected-(U7-ALERT-Pad3)">
+    <net code="59" name="unconnected-(U7-ALERT-Pad3)">
       <node ref="U7" pin="3" pinfunction="ALERT" pintype="output+no_connect"/>
     </net>
-    <net code="58" name="unconnected-(U7-~{RESET}-Pad6)">
+    <net code="60" name="unconnected-(U7-~{RESET}-Pad6)">
       <node ref="U7" pin="6" pinfunction="~{RESET}" pintype="input+no_connect"/>
     </net>
-    <net code="59" name="unconnected-(U15-NC-Pad4)">
+    <net code="61" name="unconnected-(U15-NC-Pad4)">
       <node ref="U15" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
