@@ -5,7 +5,7 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
-		(title "USTSIPIN03B")
+		(title "USTSIPIN03C")
 		(date "2024-05-30")
 		(company "kaklik <info@ust.cz>")
 		(comment 2 "Semiconductor\\nionizing radiation detector")
