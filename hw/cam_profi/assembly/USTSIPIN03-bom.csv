@@ -1,12 +1,12 @@
 Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,UST_ID,UST_ID2
 1,,C,C25,1pF,C_0805_2012Metric,1, ,~,5c70984712875079b91f8b9f,
 2,,C,C16 C48,1nF,C_0805_2012Metric,2, ,~,5c70984812875079b91f8ba6,
-3,,C,C15 C35,3n3,C_0805_2012Metric,2, ,~,651abc26462c6d9e720551fa,
-4,,C_Small,C1 C2 C4 C5 C7 C8 C10 C12 C14 C17 C18 C19 C20 C23 C28 C30 C31 C33 C36 C38 C41 C42 C43 C44 C45 C46 C47 C50 C52,100nF,C_0805_2012Metric,29, ,~,5c70984712875079b91f8b4c 6508260b462c6d9e720541f1,
+3,,C,C15,3n3,C_0805_2012Metric,1, ,~,651abc26462c6d9e720551fa,
+4,,C_Small,C1 C2 C4 C5 C7 C8 C10 C12 C14 C17 C18 C19 C20 C28 C30 C33 C36 C38 C41 C42 C43 C44 C45 C46 C47 C50 C52,100nF,C_0805_2012Metric,27, ,~,5c70984712875079b91f8b4c 6508260b462c6d9e720541f1,
 5,,C,C22 C29 C32,1uF,C_1210_3225Metric,3, ,,65082f52462c6d9e72054238,
 6,,Filter_EMI_C,C37,1uF,FIR_0805,1, ,http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb,5c70984412875079b91f880f,
 7,,C_Polarized,C3 C6 C9 C11 C13,10uF,CP_EIA-3216-18_Kemet-A,5, ,~,65089dd0462c6d9e720542b3,
-8,,C_Polarized_Small,C21 C24 C26 C27 C34,10uF,CP_EIA-3216-18_Kemet-A,5, ,https://eu.mouser.com/datasheet/2/40/TAJ-3165264.pdf,65089dd0462c6d9e720542b3,
+8,,C_Polarized_Small,C21 C26 C27 C34,10uF,CP_EIA-3216-18_Kemet-A,4, ,https://eu.mouser.com/datasheet/2/40/TAJ-3165264.pdf,65089dd0462c6d9e720542b3,
 9,,C,C39 C40 C49 C51,10uF,C_0805_2012Metric,4, ,~,5c70984712875079b91f8b53,
 10,,D_Photo,D1,S2744-09,HAMAMATSU_S2744-09,1, ,https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/s2744-08_etc_kpin1049e.pdf,628d118cdc56076e9a2235e4,
 11,,LOGO,G1,LOGO,UST,1, ,~,,
@@ -17,12 +17,12 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 16,,Q_NJFET_SDG,Q1,2SK2394-6,SOT-23,1, ,~,628d134fdc56076e9a223625,
 17,,R,R6,10,R_0805_2012Metric,1, ,~,5c70984512875079b91f896d,
 18,,R,R1 R2 R3,100,R_0805_2012Metric,3, ,~,5c70984512875079b91f8977,
-19,,R,R10 R11 R19 R21,470R,R_0805_2012Metric,4, ,~,5c70984512875079b91f8986,
-20,,R,R7 R22,1k,R_0805_2012Metric,2, ,~,5c70984512875079b91f898c,
+19,,R,R10 R19 R21,470R,R_0805_2012Metric,3, ,~,5c70984512875079b91f8986,
+20,,R,R7,1k,R_0805_2012Metric,1, ,~,5c70984512875079b91f898c,
 21,,R,R12 R14 R15 R16 R17,4k7,R_0805_2012Metric,5, ,~,5c70984612875079b91f8995,
-22,,R,R4 R5 R18 R20 R29 R30,10k,R_0805_2012Metric,6, ,~,5c70984612875079b91f899f,
+22,,R,R4 R5 R29 R30,10k,R_0805_2012Metric,4, ,~,5c70984612875079b91f899f,
 23,,R,R13,10M,R_0805_2012Metric,1, ,~,5c70984712875079b91f8aae,
-24,,AD8691,U2 U4 U9,AD8691,TSOT-23-5,3, ,https://www.analog.com/media/en/technical-documentation/data-sheets/AD8691_8692_8694.pdf,5d47c084128750448e6b4671,
+24,,AD8691,U2 U4,AD8691,TSOT-23-5,2, ,https://www.analog.com/media/en/technical-documentation/data-sheets/AD8691_8692_8694.pdf,5d47c084128750448e6b4671,
 25,,AT24CS64-SSHM,U11,AT24CS64-SSHM,SOIC-8_3.9x4.9mm_P1.27mm,1, ,http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8870-SEEPROM-AT24CS64-Datasheet.pdf,5c70984712875079b91f8b99,
 26,,ISL21070CIH320Z-TK,U1,ISL21080CIH341Z-TK,SOT-23,1, ,https://cz.mouser.com/datasheet/2/698/REN_isl21080_DST_20040119-1998038.pdf,6555591d0c8d609e3e79abc1,
 27,,ISL21070CIH320Z-TK,U10,ISL21080DIH309,SOT-23,1, ,https://www.renesas.com/us/en/document/dst/isl21080-datasheet,5c70984712875079b91f8b0b,
@@ -46,7 +46,7 @@ Date:,2024-05-30
 KiCad Version:,8.0.8+1
 Statistics:
 Component Groups:,34
-Component Count:,99
-Fitted Components:,99
+Component Count:,90
+Fitted Components:,90
 Number of PCBs:,1
-Total Components:,99
+Total Components:,90
