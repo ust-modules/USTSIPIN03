@@ -24074,7 +24074,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "USTSIPIN03B"
+	(gr_text "USTSIPIN03C"
 		(at 128.8034 101.1428 90)
 		(layer "F.SilkS")
 		(uuid "3af3f344-411a-4f55-a925-c3d9551db75c")
