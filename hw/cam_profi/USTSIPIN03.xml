@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/USTSIPIN03.kicad_sch</source>
-    <date>2025-04-26T10:00:21+0000</date>
+    <date>2025-05-05T23:40:06+0000</date>
     <tool>Eeschema 8.0.8+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -818,13 +818,13 @@
       <footprint>Package_SO:MSOP-10_3x3mm_P0.5mm</footprint>
       <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/18645fb.pdf</datasheet>
       <fields>
-        <field name="UST_ID">651eaece462c6d9e72055763</field>
+        <field name="UST_ID">67f14385ee7fc534862c535e</field>
         <field name="Footprint">Package_SO:MSOP-10_3x3mm_P0.5mm</field>
         <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/18645fb.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Analog_ADC" part="LTC1865-MS" description="Dual channel 16-bit SAR Analog to Digital Converter, 5V supply, 150ksps, SPI interface"/>
-      <property name="UST_ID" value="651eaece462c6d9e72055763"/>
+      <property name="UST_ID" value="67f14385ee7fc534862c535e"/>
       <property name="Sheetname" value="analogue_backend"/>
       <property name="Sheetfile" value="analogue_backend.kicad_sch"/>
       <property name="ki_keywords" value="adc 2ch"/>

@@ -26,7 +26,7 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 25,,AT24CS64-SSHM,U11,AT24CS64-SSHM,SOIC-8_3.9x4.9mm_P1.27mm,1, ,http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8870-SEEPROM-AT24CS64-Datasheet.pdf,5c70984712875079b91f8b99,
 26,,ISL21070CIH320Z-TK,U1,ISL21080CIH341Z-TK,SOT-23,1, ,https://cz.mouser.com/datasheet/2/698/REN_isl21080_DST_20040119-1998038.pdf,6555591d0c8d609e3e79abc1,
 27,,ISL21070CIH320Z-TK,U10,ISL21080DIH309,SOT-23,1, ,https://www.renesas.com/us/en/document/dst/isl21080-datasheet,5c70984712875079b91f8b0b,
-28,,LTC1865-MS,U3,LTC1865-MS,MSOP-10_3x3mm_P0.5mm,1, ,https://www.analog.com/media/en/technical-documentation/data-sheets/18645fb.pdf,651eaece462c6d9e72055763,
+28,,LTC1865-MS,U3,LTC1865-MS,MSOP-10_3x3mm_P0.5mm,1, ,https://www.analog.com/media/en/technical-documentation/data-sheets/18645fb.pdf,67f14385ee7fc534862c535e,
 29,,MIC5504-3.3YM5,U15,MIC5504-3.3YM5-TR,SOT-23-5,1, ,http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf,5c7255e81287500b4e112ea2,
 30,,OPA314,U8,OPA314,SOT-23-5,1, ,https://www.ti.com/lit/ds/symlink/opa314.pdf,5c70984412875079b91f879a,
 31,,SHT31-DIS,U7,SHT31-DIS,Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm,1, ,https://sensirion.com/media/documents/213E6A3B/63A5A569/Datasheet_SHT3x_DIS.pdf,5c70984612875079b91f89e4,
