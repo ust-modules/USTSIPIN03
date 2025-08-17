@@ -24,7 +24,7 @@ The USTSIPIN03 is developed as a single-board improved variant of the [PIND02](h
     * Unique serial number
     * Calibration memory
 * Dimensions: 70.65 x 50.3 x 10 mm
-* Mass: TBD g 
+* Mass: TBD (20) g 
 
 ![AIRDOS04 Sensor Top](doc/img/AIRDOS04_sensor_top.png)
 
@@ -33,7 +33,6 @@ The USTSIPIN03 is developed as a single-board improved variant of the [PIND02](h
 ### Measurement Specifications
 
 * **Detection element**: Silicon PIN diode, volume 44 mm³
-* **Dose rate measurement range**: 10 nGy/h to 10 mGy/h
 * **Effective number of energy channels**: ~65000
 * **Deposited energy range**: 40 keV to 80 MeV
 * **Spectral resolution**: 15 ±2 keV
