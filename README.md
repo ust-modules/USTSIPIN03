@@ -17,7 +17,7 @@ The USTSIPIN03 is developed as a single-board improved variant of the [PIND02](h
 ### Electrical and Interface Specifications
 
 * **Power supply**: +5 V DC
-* **Maximum power consumption**: 5.5 mA
+* **Maximum power consumption**: 5.5 mA (28 mW)
 * **Main data interface**: SPI with up to 15 MHz system clock
 * **Service interface**: I2C with access to
     * Temperature and humidity sensors
