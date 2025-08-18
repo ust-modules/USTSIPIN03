@@ -24,7 +24,7 @@ The USTSIPIN03 is developed as a single-board improved variant of the [PIND02](h
     * Unique serial number
     * Calibration memory
 * Dimensions: 70.65 x 50.3 x 10 mm
-* Mass: TBD (20) g 
+* Mass: 24 g (including connector) 
 
 ![AIRDOS04 Sensor Top](doc/img/AIRDOS04_sensor_top.png)
 
