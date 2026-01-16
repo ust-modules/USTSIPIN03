@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
@@ -13,9 +13,13 @@
 	)
 	(lib_symbols
 		(symbol "MLAB_MECHANICAL:HOLE"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -102,6 +106,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
@@ -181,6 +186,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -260,7 +266,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -277,7 +284,19 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "MOUNTING HOLES"
+		(exclude_from_sim no)
+		(at 252.73 30.48 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d55f8c2-9759-46e2-994f-2105cdb10fc9")
 	)
 	(junction
 		(at 265.43 21.59)
@@ -587,17 +606,6 @@
 		)
 		(uuid "f643c976-75d7-466e-a760-28fb987885c0")
 	)
-	(text "MOUNTING HOLES"
-		(exclude_from_sim no)
-		(at 252.73 30.48 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d55f8c2-9759-46e2-994f-2105cdb10fc9")
-	)
 	(symbol
 		(lib_id "MLAB_MECHANICAL:HOLE")
 		(at 255.27 24.13 90)
@@ -672,7 +680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f2adbb7-5f97-4a39-b161-72c425f5a17c")
-		(property "Reference" "FID2"
+		(property "Reference" "FID4"
 			(at 266.319 41.9679 0)
 			(effects
 				(font
@@ -751,7 +759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ef0c33d-aa75-4799-ba66-ba16fac2c793")
-		(property "Reference" "FID1"
+		(property "Reference" "FID3"
 			(at 253.619 41.9679 0)
 			(effects
 				(font
@@ -1224,6 +1232,10 @@
 	(sheet
 		(at 187.96 78.74)
 		(size 45.72 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1253,83 +1265,83 @@
 		)
 		(pin "CONV" input
 			(at 187.96 101.6 180)
+			(uuid "dd754104-a79b-4ecd-a1ba-77ec4fa53109")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "dd754104-a79b-4ecd-a1ba-77ec4fa53109")
 		)
 		(pin "SCLK" output
 			(at 187.96 93.98 180)
+			(uuid "794689a1-a298-4c03-9e6d-56a8cf3fd1de")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "794689a1-a298-4c03-9e6d-56a8cf3fd1de")
 		)
 		(pin "MISO" input
 			(at 187.96 96.52 180)
+			(uuid "40869ece-8643-4af7-9805-98c0ececff30")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "40869ece-8643-4af7-9805-98c0ececff30")
 		)
 		(pin "MOSI" output
 			(at 187.96 99.06 180)
+			(uuid "00fa78d5-0c4b-4bb2-b399-18e6cd9bbb1d")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "00fa78d5-0c4b-4bb2-b399-18e6cd9bbb1d")
 		)
 		(pin "SDA" bidirectional
 			(at 213.36 111.76 270)
+			(uuid "28c82be1-c769-49c3-ad40-606132630787")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "28c82be1-c769-49c3-ad40-606132630787")
 		)
 		(pin "SCL" output
 			(at 218.44 111.76 270)
+			(uuid "21950400-e2bc-4e9b-9519-e764df138c22")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "21950400-e2bc-4e9b-9519-e764df138c22")
 		)
 		(pin "Set" output
 			(at 187.96 107.95 180)
+			(uuid "421452c5-68ed-4b32-86e5-1abe56fe9619")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "421452c5-68ed-4b32-86e5-1abe56fe9619")
 		)
 		(pin "Reset" output
 			(at 187.96 105.41 180)
+			(uuid "c20cd818-ac81-4da3-835e-64a33b5f1974")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "c20cd818-ac81-4da3-835e-64a33b5f1974")
 		)
 		(instances
 			(project "USTSIPIN03"
@@ -1342,6 +1354,10 @@
 	(sheet
 		(at 128.27 80.01)
 		(size 45.72 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1371,83 +1387,83 @@
 		)
 		(pin "Signal" input
 			(at 128.27 100.33 180)
+			(uuid "b64d1980-4778-4ac4-80a8-a8cc6a258334")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "b64d1980-4778-4ac4-80a8-a8cc6a258334")
 		)
 		(pin "REF" input
 			(at 151.13 80.01 90)
+			(uuid "80bf4a47-7f74-4ee3-a56f-a849b0f7f5be")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "80bf4a47-7f74-4ee3-a56f-a849b0f7f5be")
 		)
 		(pin "CONV" output
 			(at 173.99 101.6 0)
+			(uuid "9d6734ed-2aaa-4980-bcd8-58b14e85fa7a")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "9d6734ed-2aaa-4980-bcd8-58b14e85fa7a")
 		)
 		(pin "SDO" output
 			(at 173.99 96.52 0)
+			(uuid "a945ad07-c951-463f-9b6e-4799c89bc1cb")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "a945ad07-c951-463f-9b6e-4799c89bc1cb")
 		)
 		(pin "SCK" input
 			(at 173.99 93.98 0)
+			(uuid "39129415-cc02-4a16-87b4-336bf2677e8e")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "39129415-cc02-4a16-87b4-336bf2677e8e")
 		)
 		(pin "SDI" input
 			(at 173.99 99.06 0)
+			(uuid "608f4d2b-6754-4f07-9a93-a1fcd6850db3")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "608f4d2b-6754-4f07-9a93-a1fcd6850db3")
 		)
 		(pin "Reset" input
 			(at 173.99 105.41 0)
+			(uuid "ded13d2d-ea35-4533-a513-66640c494f0f")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "ded13d2d-ea35-4533-a513-66640c494f0f")
 		)
 		(pin "Set" input
 			(at 173.99 107.95 0)
+			(uuid "fce602c3-9e75-43fe-99fc-204558d2ac9e")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "fce602c3-9e75-43fe-99fc-204558d2ac9e")
 		)
 		(instances
 			(project "USTSIPIN03"
@@ -1460,6 +1476,10 @@
 	(sheet
 		(at 66.04 81.28)
 		(size 41.91 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1489,43 +1509,43 @@
 		)
 		(pin "Signal" output
 			(at 107.95 100.33 0)
+			(uuid "b0e09dd3-5de0-4b4c-bca3-b831ea6c6f2b")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "b0e09dd3-5de0-4b4c-bca3-b831ea6c6f2b")
 		)
 		(pin "SDA" bidirectional
 			(at 96.52 113.03 270)
+			(uuid "0303c953-5837-44f1-9a4a-36a0f251bb2f")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "0303c953-5837-44f1-9a4a-36a0f251bb2f")
 		)
 		(pin "SCL" input
 			(at 101.6 113.03 270)
+			(uuid "23176caa-1056-4505-8c7d-01d7d78b1049")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "23176caa-1056-4505-8c7d-01d7d78b1049")
 		)
 		(pin "REF" input
 			(at 87.63 81.28 90)
+			(uuid "61dcbc53-319f-42b6-9588-e79db6eada52")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "61dcbc53-319f-42b6-9588-e79db6eada52")
 		)
 		(instances
 			(project "USTSIPIN03"
@@ -1540,4 +1560,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
