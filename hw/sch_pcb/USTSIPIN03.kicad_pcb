@@ -22933,6 +22933,17 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Radiation Sensing Area"
+		(at 153.162 106.553 0)
+		(layer "Cmts.User")
+		(uuid "b6fe0ee1-883a-4a9c-9a79-a7f70a00545d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(dimension
 		(type aligned)
 		(layer "Cmts.User")
@@ -22999,6 +23010,234 @@
 			(at 148.5 69.56 0)
 			(layer "Cmts.User")
 			(uuid "a05e46ad-45b2-4eab-8fb7-f6c171e72cfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "11102984-6650-418a-8bfb-62d62fa89bf4")
+		(pts
+			(xy 142.7844 102.6136) (xy 169.7844 102.6136)
+		)
+		(height -2.3344)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "27"
+			(at 156.2844 99.1292 0)
+			(layer "Cmts.User")
+			(uuid "11102984-6650-418a-8bfb-62d62fa89bf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "1e353e24-7458-45b3-bde8-2bf1e0aa8a02")
+		(pts
+			(xy 118.02 125.32) (xy 142.7844 116.8136)
+		)
+		(height 21.4768)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "8.5064"
+			(at 138.3468 121.0668 90)
+			(layer "Cmts.User")
+			(uuid "1e353e24-7458-45b3-bde8-2bf1e0aa8a02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "2a199d74-7a75-474e-acad-ebf258c553ba")
+		(pts
+			(xy 169.7844 116.8136) (xy 178.98 125.32)
+		)
+		(height 3.4554)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "9.1956"
+			(at 174.3822 119.119 0)
+			(layer "Cmts.User")
+			(uuid "2a199d74-7a75-474e-acad-ebf258c553ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "3b0f86cb-4b4b-4289-a6db-9eca46fb417c")
+		(pts
+			(xy 169.7844 116.8136) (xy 169.7844 102.6136)
+		)
+		(height 3.2658)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "14.2"
+			(at 171.9002 109.7136 90)
+			(layer "Cmts.User")
+			(uuid "3b0f86cb-4b4b-4289-a6db-9eca46fb417c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "5044b030-75a0-4db2-bdba-72b44f809d61")
+		(pts
+			(xy 113.194 130.145999) (xy 183.806 130.145999)
+		)
+		(height 5.363001)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "70.612 mm"
+			(at 148.5 134.359 0)
+			(layer "Cmts.User")
+			(uuid "5044b030-75a0-4db2-bdba-72b44f809d61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "f1a6b037-f3ed-45e9-ad05-b0b67d59e961")
+		(pts
+			(xy 113.194 130.145999) (xy 113.194 79.854)
+		)
+		(height -3.847)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "50.292 mm"
+			(at 108.197 104.999999 90)
+			(layer "Cmts.User")
+			(uuid "f1a6b037-f3ed-45e9-ad05-b0b67d59e961")
 			(effects
 				(font
 					(size 1 1)
